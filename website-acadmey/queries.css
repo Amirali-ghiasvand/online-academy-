@@ -1,0 +1,214 @@
+@media (max-width: 1200px) {
+	.continer-cardbox {
+		grid-template-columns: repeat(3, 1fr);
+		width: 70rem;
+	}
+}
+@media (max-width: 1024px) {
+	/* header */
+	html {
+		font-size: 56%;
+	}
+	.continer-search-header input {
+		width: 140px;
+		height: 33px;
+		border: 1px #4263eb solid;
+		border-radius: 10px;
+		font-size: 1.4rem;
+		padding: 8px;
+		transition: 0.4s;
+	}
+	.continer-search-header input:focus {
+		border: 1px #4b6ae2 solid;
+		width: 180px;
+		transition: 0.4s;
+	}
+	/* header 2  */
+	.continer-img-1 {
+		width: 100%;
+	}
+	.explain-text-1 {
+		width: 100%;
+	}
+	.continer-text-1 {
+		width: 40rem;
+		direction: ltr;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1.1;
+		letter-spacing: -0.3rem;
+	}
+	.explain-text-1 {
+		font-size: 1.8rem;
+		font-weight: 500;
+		line-height: 1.35;
+	}
+}
+
+
+@media (max-width: 920px) {
+	.navigation_mobile {
+		width: 100%;
+		display: flex;
+		margin-top: -10px;
+		margin-bottom: 20px;
+		align-items: center;
+	}
+
+	.search-btn {
+		display: none;
+	}
+	.navigation {
+		display: none;
+	}
+	h1 {
+		font-size: 3.6rem;
+	}
+	.explain-text-1 {
+		font-size: 1.6rem;
+	}
+	.continer-search-header {
+		display: none;
+	}
+	.continer_benefit-academy {
+		text-align: center;
+		margin: 30px 0px 30px 0;
+		display: block;
+	}
+	.continer-img-2 svg {
+		width: 90%;
+	}
+	.continer-text-2 {
+		align-items: center;
+	}
+	.title-benefit-academy {
+		font-size: 4rem;
+	}
+	.box-benefit-academy {
+		font-size: 2rem;
+		margin-top: 10px;
+	}
+	.benefit-academy_icon {
+		width: 6rem;
+		box-shadow: 0 2rem 3rem 0 rgb(0 0 0 / 9%);
+		background-color: white;
+	}
+	.benefit-academy {
+		margin-top: 4px;
+	}
+	.continer-signup {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	footer {
+		margin: 20px 0 80px 0;
+	}
+	.signup-image {
+		width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 44%;
+	}
+	.explain {
+		grid-template-columns: repeat(1, 1fr);
+		direction: ltr;
+	}
+	.continer-text-1 {
+		width: 51rem;
+		text-align: center;
+	}
+	.btn-header {
+		width: 270px;
+		font-size: 2.3rem;
+	}
+	h1 {
+		font-size: 5rem;
+	}
+	h1 p {
+		display: inline;
+	}
+	.explain-text-1 {
+		font-size: 2.5rem;
+		font-weight: 500;
+		line-height: 1.35;
+	}
+	.box-benefit-academy{
+		font-size: 1.6rem;
+	}
+	/* section3: card */
+	.continer-cardbox {
+		column-gap: 12px;
+		width: 40rem;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.card {
+		width: 21.4rem;
+	}
+
+	.card img {
+		width: 21.4rem;
+		height: 15rem;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+	}
+	.navigation_mobile {
+		width: 100%;
+		display: flex;
+		margin-top: 6px;
+		align-items: center;
+	}
+	/*section 3 : user-comment */
+	.continer_slider-usercomment {
+		display: grid;
+		margin-top: 10px;
+		grid-template-columns: repeat(1, 1fr);
+		justify-items: center;
+	}
+	.user-comment {
+		width: 40rem;
+		background-color: #334bbd;
+		height: 22rem;
+		color: var(--text-color-2);
+		font-size: 1.8rem;
+		margin-top: 10px;
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		border-radius: 10px;
+	}
+	.user-comment img {
+		width: 7.8rem;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+	/* section counter  */
+	.continer-counter-student {
+		display: none;
+	}
+	.continer-signup {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.btn-header {
+		height: 48px;
+	}
+	#form-info{
+		width: 20rem;
+	}
+	.footer_social-media svg{
+		margin-right: 1rem;
+	}
+
+}
+@media  (max-width: 480px) {
+	.continer-cardbox {
+	
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+}
+
+
